@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A441FEE9-482A-418E-B046-795B2233B910}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RageBMLRealizer_Portable</RootNamespace>
+    <AssemblyName>TrackerAsset_Portable_Portable</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLBehavior.cs">
+      <Link>BMLRealizer\BMLBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLBlock.cs">
+      <Link>BMLRealizer\BMLBlock.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLBml.cs">
+      <Link>BMLRealizer\BMLBml.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLFace.cs">
+      <Link>BMLRealizer\BMLFace.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLFaceFacs.cs">
+      <Link>BMLRealizer\BMLFaceFacs.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLFaceLexeme.cs">
+      <Link>BMLRealizer\BMLFaceLexeme.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLFaceShift.cs">
+      <Link>BMLRealizer\BMLFaceShift.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLFeedback.cs">
+      <Link>BMLRealizer\BMLFeedback.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLGaze.cs">
+      <Link>BMLRealizer\BMLGaze.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLGazeShift.cs">
+      <Link>BMLRealizer\BMLGazeShift.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLGesture.cs">
+      <Link>BMLRealizer\BMLGesture.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLHead.cs">
+      <Link>BMLRealizer\BMLHead.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLHeadDirectionShift.cs">
+      <Link>BMLRealizer\BMLHeadDirectionShift.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLLocomotion.cs">
+      <Link>BMLRealizer\BMLLocomotion.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLPointing.cs">
+      <Link>BMLRealizer\BMLPointing.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLPose.cs">
+      <Link>BMLRealizer\BMLPose.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLPosture.cs">
+      <Link>BMLRealizer\BMLPosture.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLPostureShift.cs">
+      <Link>BMLRealizer\BMLPostureShift.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLSpeech.cs">
+      <Link>BMLRealizer\BMLSpeech.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLStance.cs">
+      <Link>BMLRealizer\BMLStance.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLSyncPoint.cs">
+      <Link>BMLRealizer\BMLSyncPoint.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\BMLRealizer\BMLWait.cs">
+      <Link>BMLRealizer\BMLWait.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\RageBMLRealizer.cs">
+      <Link>RageBMLRealizer.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\RageBMLRealizerSettings.cs">
+      <Link>RageBMLRealizerSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\RageBMLRealizer\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\RageBMLRealizer\Resources\RageBMLRealizer.VersionAndDependencies.xml">
+      <Link>Resources\RageBMLRealizer.VersionAndDependencies.xml</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RageAssetManager_Portable\RageAssetManager - Portable.csproj">
+      <Project>{7f2712c1-575c-4883-88aa-e5b31070354f}</Project>
+      <Name>RageAssetManager - Portable</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

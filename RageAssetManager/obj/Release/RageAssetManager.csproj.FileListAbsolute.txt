@@ -1,0 +1,5 @@
+C:\Users\Chris021\OneDrive - Universiteit Utrecht\project\rage\BML-Realizer\RageAssetManager\bin\Release\RageAssetManager.dll
+C:\Users\Chris021\OneDrive - Universiteit Utrecht\project\rage\BML-Realizer\RageAssetManager\bin\Release\RageAssetManager.pdb
+C:\Users\Chris021\OneDrive - Universiteit Utrecht\project\rage\BML-Realizer\RageAssetManager\obj\Release\RageAssetManager.csprojResolveAssemblyReference.cache
+C:\Users\Chris021\OneDrive - Universiteit Utrecht\project\rage\BML-Realizer\RageAssetManager\obj\Release\RageAssetManager.dll
+C:\Users\Chris021\OneDrive - Universiteit Utrecht\project\rage\BML-Realizer\RageAssetManager\obj\Release\RageAssetManager.pdb
