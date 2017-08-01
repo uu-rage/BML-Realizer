@@ -8,6 +8,6 @@
 
 ### Unity3D Implementation
 
-[goto here](https://github.com/uu-rage/BML-Realizer/tree/master/Examples)
+[goto here](https://github.com/uu-rage/BML-Realizer-Unity)
 
 
